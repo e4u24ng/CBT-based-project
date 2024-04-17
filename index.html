@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBT-based-project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8d19d71717.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="question-container">
+            <div class="header">
+                <h2 id="question">Question 1 of 10</h2>
+                <div class="stopwatch-container">
+                    <div class="stopwatch">
+                        <i class="fa fa-solid fa-stopwatch fa-2x icon"></i>
+                        <span class="timer">60s</span>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <ul id="options"></ul>
+            <div class="next-container"><button id="next-btn">Next</button></div>
+        </div>
+        <div id="result-container">
+            <h2>Result</h2>
+            <table id="result-table">
+                <tr>
+                    <th>Question</th>
+                    <th>Actual Answer</th>
+                    <th>Candidate Answer</th>
+                    <th>Result</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
